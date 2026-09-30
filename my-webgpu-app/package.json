@@ -1,0 +1,19 @@
+{
+  "name": "my-webgpu-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/gl-matrix": "^2.4.5",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7"
+  },
+  "dependencies": {
+    "gl-matrix": "^3.4.4"
+  }
+}

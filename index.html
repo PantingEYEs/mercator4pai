@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>WebGPU Cylinder Mapping</title>
+<style>
+    input { width: 60px; }
+    canvas { width: auto; height: auto; border: 1px solid black; }
+</style>
+</head>
+<body>
+X: <input id="x" type="number" step="0.02" value="0">
+Y: <input id="y" type="number" step="0.02" value="0">
+Z: <input id="z" type="number" step="0.02" value="0">
+θ: <input id="theta" type="number" step="0.02" value="0">
+<canvas id="gpuCanvas" width="305" height="683"></canvas>
+<script type="module" src="/main.ts"></script>
+</body>
+</html>

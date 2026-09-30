@@ -1,4 +1,4 @@
-# Mercator4PAI
+# mercator4pai
 
 一个基于 WebGPU 的交互式圆柱纹理映射实验。项目将 `assets/Mercator.JPG` 作为输入纹理，在 GPU 上逐像素计算圆柱表面与纹理坐标之间的映射，并通过页面上的参数控件调整局部坐标系和圆柱角度。
 
